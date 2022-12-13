@@ -62,7 +62,7 @@ class MongoDbRepo {
         if (err) {
           reject(err);
         }
-        resolve(data.ops[0]);
+        resolve(data);
       });
       1;
     });
